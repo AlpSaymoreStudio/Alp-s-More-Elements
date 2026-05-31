@@ -1,8 +1,7 @@
 elements.obsidian = {
     color: "#1a0a2e",
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     tempHigh: 1500,
     stateHigh: "lava",
@@ -12,8 +11,7 @@ elements.obsidian = {
 elements.sulfur = {
     color: ["#e8d44d", "#d4bc30", "#f0e060"],
     behavior: behaviors.POWDER,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "powders",
     state: "solid",
     density: 2070,
     tempHigh: 115,
@@ -23,8 +21,7 @@ elements.sulfur = {
 elements.molten_sulfur = {
     color: "#c8860a",
     behavior: behaviors.LIQUID,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "liquids",
     state: "liquid",
     density: 1800,
     viscosity: 20000,
@@ -37,8 +34,7 @@ elements.molten_sulfur = {
 elements.sulfur_gas = {
     color: "#d4c840",
     behavior: behaviors.GAS,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "gases",
     state: "gas",
     density: 2,
     tempLow: 444,
@@ -48,8 +44,7 @@ elements.sulfur_gas = {
 elements.mercury = {
     color: ["#b0bec5", "#90a4ae", "#cfd8dc"],
     behavior: behaviors.LIQUID,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "liquids",
     state: "liquid",
     density: 13600,
     viscosity: 2000,
@@ -64,8 +59,7 @@ elements.mercury = {
 elements.frozen_mercury = {
     color: "#7986cb",
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     tempHigh: -39,
     stateHigh: "mercury",
@@ -75,8 +69,7 @@ elements.frozen_mercury = {
 elements.mercury_vapor = {
     color: "#b0bec580",
     behavior: behaviors.GAS,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "gases",
     state: "gas",
     density: 7,
     tempLow: 357,
@@ -86,8 +79,7 @@ elements.mercury_vapor = {
 elements.titanium = {
     color: ["#9e9e9e", "#bdbdbd", "#757575"],
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     tempHigh: 1668,
     stateHigh: "lava",
@@ -97,8 +89,7 @@ elements.titanium = {
 elements.honey = {
     color: ["#f5a623", "#e8941a", "#f7b733"],
     behavior: behaviors.LIQUID,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "food",
     state: "liquid",
     density: 1400,
     viscosity: 900000,
@@ -109,8 +100,7 @@ elements.honey = {
 elements.tar = {
     color: ["#1b1b1b", "#2a2a2a", "#0d0d0d"],
     behavior: behaviors.LIQUID,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "liquids",
     state: "liquid",
     density: 1050,
     viscosity: 800000,
@@ -122,8 +112,7 @@ elements.tar = {
 elements.resin = {
     color: ["#c17f24", "#a0622a", "#d4943a"],
     behavior: behaviors.LIQUID,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "liquids",
     state: "liquid",
     density: 1200,
     viscosity: 600000,
@@ -134,8 +123,7 @@ elements.resin = {
 elements.chalk = {
     color: ["#f5f5f5", "#eeeeee", "#fafafa"],
     behavior: behaviors.POWDER,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "powders",
     state: "solid",
     density: 2000,
     reactions: {
@@ -146,8 +134,7 @@ elements.chalk = {
 elements.volcanic_ash = {
     color: ["#616161", "#424242", "#757575"],
     behavior: behaviors.POWDER,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "powders",
     state: "solid",
     density: 700,
     reactions: {
@@ -158,8 +145,7 @@ elements.volcanic_ash = {
 elements.wet_ash = {
     color: "#37474f",
     behavior: behaviors.POWDER,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "powders",
     state: "solid",
     density: 1200,
     tempHigh: 80,
@@ -169,8 +155,7 @@ elements.wet_ash = {
 elements.glacite = {
     color: ["#80deea", "#b2ebf2", "#4dd0e1"],
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     temp: -50,
     tempHigh: -10,
@@ -181,8 +166,7 @@ elements.glacite = {
 elements.neon_gas = {
     color: ["#ff6b6b", "#ff4757", "#ff7f7f"],
     behavior: behaviors.GAS,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "gases",
     state: "gas",
     density: 1,
     conduct: 0,
@@ -191,8 +175,7 @@ elements.neon_gas = {
 elements.bronze = {
     color: ["#cd7f32", "#b87333", "#d4883a"],
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     tempHigh: 950,
     stateHigh: "lava",
@@ -205,8 +188,7 @@ elements.bronze = {
 elements.bismuth = {
     color: ["#e040fb", "#ce93d8", "#b39ddb", "#80cbc4", "#c5e1a5"],
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     tempHigh: 271,
     stateHigh: "lava",
@@ -216,8 +198,7 @@ elements.bismuth = {
 elements.crystal = {
     color: ["#00e5ff", "#18ffff", "#64ffda", "#e0f7fa"],
     behavior: behaviors.WALL,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "solids",
     state: "solid",
     tempHigh: 1700,
     stateHigh: "lava",
@@ -240,8 +221,7 @@ elements.crystal = {
 elements.plasma_orb = {
     color: ["#ea00ff", "#d500f9", "#b300e0", "#ff00e5", "#ff40ff"],
     behavior: behaviors.GAS,
-    category: "Alp's More Elements",
-    hidden: false,
+    category: "energy",
     state: "gas",
     density: 50,
     temp: 8000,
